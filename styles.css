@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #393662;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 75vh;
+}
+
+.round {
+  width: 60px;
+  height: 60px;
+  box-shadow: rgba(255, 255, 255, 0.75);
+  border: 7px solid #fff;
+  border-radius: 50%;
+  margin: 6px 12px;
+}
+
+.bg-color-1 {
+  --primary-color: #2fb872;
+  background-color: var(--primary-color);
+}
+
+.bg-color-2 {
+  --primary-color: #0984e3;
+  background-color: var(--primary-color);
+}
+
+.bg-color-3 {
+  --primary-color: #e84393;
+  background-color: var(--primary-color);
+}
